@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=* NewDesignator=u02
+Change Component Designator: OldDesignator=C25 NewDesignator=C23
+Change Component Designator: OldDesignator=C41 NewDesignator=C021
+Change Component Designator: OldDesignator=C? NewDesignator=C21
+Change Component Designator: OldDesignator=C? NewDesignator=C22
+Change Net Name : Old Net Name=NetC25_1 New Net Name=NetC23_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC22_2
+Added Room: Name=LittleFOC-pcb-0.0.2

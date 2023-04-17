@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: F:\My_Workspace\Workspace_2022\Project_Little_FOC\PCB\LittleFOC-pcb-0.0.0\LittleFOC-pcb-0.0.0.PcbDoc
+RuleKind=Width|RuleName=GND|Scope=Board|Minimum=8.00
+RuleKind=Width|RuleName=VCC|Scope=Board|Minimum=20.00
+RuleKind=Width|RuleName=signal|Scope=Board|Minimum=8.00
+RuleKind=Clearance|RuleName=chip_pin|Scope=Board|Minimum=5.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Power|Scope=Board|Minimum=12.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

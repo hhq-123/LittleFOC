@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=nFAULT Pin=U1-8
+Removed Pin From Net: NetName=nSLEEP Pin=U1-10
+Added Pin To Net: NetName=nSLEEP Pin=U1-8
+Added Pin To Net: NetName=nFAULT Pin=U1-10
+Added Member To Class: ClassName=LittleFOC-pcb-0.0.2 Member=Component U02 OSC 16Mhz

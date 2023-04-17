@@ -1,0 +1,12 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Free Documents]
+   Generated File[LittleFOC-pcb-0.0.0.RUL]
+   Generated File[LittleFOC-pcb-0.0.0.EXTREP]
+   Generated File[LittleFOC-pcb-0.0.0.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 16:12:26 On 2022/7/21
