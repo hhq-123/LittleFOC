@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=3V3 Pin=P3-4
+Removed Pin From Net: NetName=nSLEEP Pin=U1-8
+Change Component Footprint: Designator=P3 Old Footprint=HDR1X4 New Footprint=HDR1X5
+Change Component Comment : Designator=P3 Old Comment=Header 4 New Comment=Header 5
+Added Pin To Net: NetName=3V3 Pin=P3-5
+Added Pin To Net: NetName=nSLEEP Pin=U1-7
+Added Pin To Net: NetName=NetC23_1 Pin=U2-22
+Added Pin To Net: NetName=NetC23_1 Pin=U2-24
+Added Pin To Net: NetName=NetC23_1 Pin=U2-26
+Change Net Name : Old Net Name=I2C_SCL New Net Name=SPI1_SCN
+Change Net Name : Old Net Name=NetC23_1 New Net Name=BLDC_EN
+Added Pin To Net: NetName=SPI1_MOSI Pin=P3-4
+Added Pin To Net: NetName=SPI1_MOSI Pin=U1-17
+Added Net: Name=SPI1_MOSI
+Added Pin To Net: NetName=SPI_SCK Pin=P3-2
+Added Pin To Net: NetName=SPI_SCK Pin=U1-8
+Added Net: Name=SPI_SCK
+Change Class Name : Old Net Name=LittleFOC-pcb-0.0.2 New Net Name=LittleFOC-pcb-0.0.3
+Added Member To Class: ClassName=LittleFOC-pcb-0.0.3 Member=Component U02 OSC 16Mhz
+Change Room Name: Old Name=LittleFOC-pcb-0.0.2 New Name=LittleFOC-pcb-0.0.3
+Change Room Scope: Old Scope=InComponentClass('LittleFOC-pcb-0.0.2') New Scope=InComponentClass('LittleFOC-pcb-0.0.3')

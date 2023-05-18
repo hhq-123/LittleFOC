@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=SPI_SCK Pin=P3-2
+Removed Pin From Net: NetName=SPI1_SCN Pin=P3-3
+Removed Pin From Net: NetName=SPI1_MOSI Pin=P3-4
+Added Pin To Net: NetName=SPI1_MOSI Pin=P3-2
+Added Pin To Net: NetName=SPI_SCK Pin=P3-3
+Added Pin To Net: NetName=SPI1_SCN Pin=P3-4
+Added Member To Class: ClassName=LittleFOC-pcb-0.0.3 Member=Component U02 OSC 16Mhz

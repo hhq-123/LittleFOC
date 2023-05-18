@@ -1,0 +1,13 @@
+Change Component Footprint: Designator=C21 Old Footprint=XT_100UF_25V New Footprint=0402
+Change component parameters: Designator = "C21" ("C21"); Footprint = "XT_100UF_25V"; UniqueID = "\OEMBBCPF" ("\OEMBBCPF")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=LittleFOC-pcb-0.1.0 Member=Component P2 Header 3
+Added Member To Class: ClassName=LittleFOC-pcb-0.1.0 Member=Component P4 SH1.0 3p
+Added Member To Class: ClassName=LittleFOC-pcb-0.1.0 Member=Component U02 OSC 16Mhz
+Added Room: Name=LittleFOC-pcb-0.1.0

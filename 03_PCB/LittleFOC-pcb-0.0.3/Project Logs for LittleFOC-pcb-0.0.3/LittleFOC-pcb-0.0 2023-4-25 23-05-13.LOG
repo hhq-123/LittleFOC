@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=SPI1_MOSI Pin=P3-2
+Removed Pin From Net: NetName=SPI1_SCN Pin=P3-4
+Removed Pin From Net: NetName=3V3 Pin=P3-5
+Removed Pin From Net: NetName=nSLEEP Pin=U1-7
+Removed Pin From Net: NetName=SPI1_SCN Pin=U1-16
+Change Component Footprint: Designator=P3 Old Footprint=HDR1X5 New Footprint=SH1.0 6p
+Change Component Comment : Designator=P3 Old Comment=Header 5 New Comment=Header 6
+Added Pin To Net: NetName=SPI1_MOSI Pin=P3-3
+Added Pin To Net: NetName=SPI1_SCN Pin=P3-5
+Added Pin To Net: NetName=3V3 Pin=P3-6
+Added Pin To Net: NetName=SPI1_SCN Pin=U1-7
+Added Pin To Net: NetName=nSLEEP Pin=U1-9
+Added Pin To Net: NetName=3V3 Pin=U2-16
+Added Pin To Net: NetName=SPI1_MISO Pin=P3-2
+Added Pin To Net: NetName=SPI1_MISO Pin=U1-16
+Added Net: Name=SPI1_MISO
+Added Pin To Net: NetName=SPI1_SCK Pin=P3-4
+Added Pin To Net: NetName=SPI1_SCK Pin=U1-8
+Added Net: Name=SPI1_SCK
+Added Member To Class: ClassName=LittleFOC-pcb-0.0.3 Member=Component U02 OSC 16Mhz

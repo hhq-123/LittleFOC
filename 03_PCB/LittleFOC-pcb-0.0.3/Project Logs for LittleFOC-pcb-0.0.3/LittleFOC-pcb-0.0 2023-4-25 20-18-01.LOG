@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=BLDC_EN Pin=U2-22
+Removed Pin From Net: NetName=BLDC_EN Pin=U2-24
+Removed Pin From Net: NetName=BLDC_EN Pin=U2-26
+Added Pin To Net: NetName=3V3 Pin=U2-22
+Added Pin To Net: NetName=3V3 Pin=U2-24
+Added Pin To Net: NetName=3V3 Pin=U2-26
+Change Net Name : Old Net Name=BLDC_EN New Net Name=NetC23_1
+Added Member To Class: ClassName=LittleFOC-pcb-0.0.3 Member=Component U02 OSC 16Mhz

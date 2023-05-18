@@ -11,6 +11,8 @@
 PMSM_Motor *pmsm_motor;
 float ia, ib, ic;
 
+extern uint32_t time;
+
 void FOC_Init(void)
 {
 	TIM17_Config();
@@ -29,6 +31,7 @@ void FOC_Init(void)
 
 void foc_MS_DMAstart(void)
 {
+	time = TIM17->CNT;
 	pmsm_motor->MagSensor->startDMA(pmsm_motor->MagSensor);
 }
 	

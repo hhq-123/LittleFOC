@@ -1,0 +1,2 @@
+Change Net Name : Old Net Name=SPI1_SCN New Net Name=SPI1_CSN
+Added Member To Class: ClassName=LittleFOC-pcb-0.0.3 Member=Component U02 OSC 16Mhz

@@ -4,6 +4,7 @@
 uint32_t global_time_stamp = 0;
 
 char uart_port_buf[256];
+uint32_t time;
 
 PMSM_Motor* new_PMSM_Motor(void)
 {
@@ -95,22 +96,17 @@ void pmsm_motor_init(PMSM_Motor* const pPMObj)
 	
 	pPMObj->state = CMD_NICrtl_P_CW;
 	
-	//pPMObj->PIDCtrl_P->set(pPMObj->PIDCtrl_P, 0x0000);
-	//LL_TIM_EnableIT_UPDATE(TIM1);
-	//uint32_t time = Get_sys_time_us();
-	//pPMObj->run(pPMObj);
-	//time = Get_sys_time_us() - time;
-	//printf("spend %d us", time);
-	//pPMObj->state = CMD_NICrtl_P;
 }
 
 void pmsm_motor_MS_DMA(PMSM_Motor* const pPMObj)
 {
+	
 	pPMObj->MagSensor->startDMA(pPMObj->MagSensor);
 }
 
 void pmsm_motor_start(PMSM_Motor* const pPMObj)
 {
+	
 	LL_I2C_EnableIT_STOP(I2C2);
 	LL_TIM_EnableIT_UPDATE(TIM1);
 }
@@ -157,6 +153,8 @@ void pmsm_motor_ctrl(PMSM_Motor* const pPMObj)
 void pmsm_motor_ctrl_position(PMSM_Motor* const pPMObj, q15_t position)
 {
 	static uint8_t i = 0;
+	time = TIM17->CNT - time;
+	printf("%dus\r\n", time);
 	pPMObj->sen(pPMObj);
 	if(i>5)
 	{
@@ -169,6 +167,7 @@ void pmsm_motor_ctrl_position(PMSM_Motor* const pPMObj, q15_t position)
 	pPMObj->PIDCtrl_I[1]->set(pPMObj->PIDCtrl_I[1], pPMObj->Iq);
 		
 	pPMObj->run(pPMObj);
+
 }
 
 void pmsm_motor_sensor_get(PMSM_Motor* const pPMObj)
